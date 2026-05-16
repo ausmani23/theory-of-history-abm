@@ -1,6 +1,6 @@
-# In Defense of the Theory of History — simulation
+# In Defense of the Theory of History 
 
-Companion web demo for the talk *In Defense of the Theory of History* (Adaner Usmani, 2026). An agent-based model of historical materialism: societies inhabit one of three modes (HG, Ag, Cap), with two stochastic rules.
+An agent-based model of historical materialism: societies inhabit one of three modes (HG, Ag, Cap), with two stochastic rules.
 
 ## The rules
 
