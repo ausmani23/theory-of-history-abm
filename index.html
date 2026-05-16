@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>In Defense of the Theory of History</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>In Defense of the Theory of History</h1>
+  <div class="rules">
+    <p class="setup">
+      Modes <span class="mono">m &isin; {HG, Ag, Cap}</span> in increasing FoP. Initial: all <span class="mono">m<sub>i</sub> = HG</span>.
+    </p>
+    <p class="rule">
+      1. &nbsp; <span class="mono">P(m<sub>i</sub> &rarr; m<sub>i</sub> &plusmn; 1) = p</span>
+    </p>
+    <p class="rule">
+      2. &nbsp; <span class="mono">P(higher-FoP wins | contact) = &frac12; + a</span>
+    </p>
+    <p class="punchline">
+      <span class="mono">p &gt; 0, &nbsp; a &gt; 0 &nbsp; &#x27F9; &nbsp; FoP develop</span>
+    </p>
+  </div>
+</header>
+
+<main>
+  <section class="grid-panel">
+    <canvas id="grid"></canvas>
+    <p class="legend">
+      <span class="swatch swatch-hg"></span> HG &nbsp;
+      <span class="swatch swatch-ag"></span> Ag &nbsp;
+      <span class="swatch swatch-cap"></span> Cap
+    </p>
+  </section>
+
+  <section class="chart-panel">
+    <canvas id="chart"></canvas>
+    <p id="stats" class="stats"></p>
+    <div class="controls">
+      <button id="play">Play</button>
+      <button id="stop">Stop</button>
+      <button id="step">Step</button>
+      <button id="reset">Reset</button>
+      <button id="fast">Speed: 5/frame</button>
+    </div>
+    <div id="sliders" class="sliders"></div>
+  </section>
+</main>
+
+<script src="sim.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
